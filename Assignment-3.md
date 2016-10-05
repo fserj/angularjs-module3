@@ -1,18 +1,4 @@
-Module 3 Coding Assignment
-=======
-[Click here to SIGN UP for the ***Single Page Web Applications with AngularJS*** course on Coursera](https://www.coursera.org/learn/single-page-web-apps-with-angularjs). It's FREE!
 
-**Time to put all that knowledge to code!**
-
-## Time to Complete
-It should take about an 1 hour or less.
-
-**Ask questions in [Week 3 Discussion Forum](https://www.coursera.org/learn/single-page-web-apps-with-angularjs/discussions/weeks/3) if you get stuck! We are all learning, and going through getting stuck and then unstuck (even with someone’s help) can be a very valuable learning experience!**
-
-### **DO NOT be scared by the length of this assignment! It’s actually a fairly short one. I just wanted to explain everything as clearly as I could and break it down into smaller steps for your benefit.**
-
-
-## Assignment Instructions
 
 ### General Idea
 You are going to be building a much simplified search of the menu item descriptions using the restaurant server REST API we used in Lecture 25, Part 2.
