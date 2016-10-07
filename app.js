@@ -4,7 +4,21 @@
 angular.module('NarrowItDownApp', [])
 .controller('NarrowItDownController', NarrowItDownController)
 .service('MenuSearchService', MenuSearchService)
-.constant('ApiBasePath', "https://davids-restaurant.herokuapp.com");
+.constant('ApiBasePath', "https://davids-restaurant.herokuapp.com")
+.directive('foundItems', FoundItems);
+
+function FoundItems() {
+  var ddo = {
+    templateUrl: 'foundItems.html',
+    scope:{
+      list : '=found',
+      onRemove: '&'
+    }
+  };
+
+  return ddo;
+}
+
 
 NarrowItDownController.$inject = ['MenuSearchService'];
 function NarrowItDownController(MenuSearchService){
@@ -24,7 +38,7 @@ function NarrowItDownController(MenuSearchService){
 
   menu.removeItem = function(itemIndex){
     console.log("remove "+itemIndex);
-    items.splice(itemIndex, 1);
+    menu.items.splice(itemIndex, 1);
   }
 }
 
