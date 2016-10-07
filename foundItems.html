@@ -1,4 +1,5 @@
 
+<div ng-if="list.items.length === 0">Nothing is found</div>
 <li ng-repeat="item in list.items">
   {{ item.name }}<br>
   {{ item.short_name }}<br>
